@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar li {
+  margin: 0px 106px;
+}
+
+#word {
+  height: 30px;
+  margin: 20px 4px;
+  /* display: flex; */
+  border: 2px solid blue
+}
+
+.main {
+  text-align: center;
+}
+
+#submit {
+  height: 24px;
+  border: 2px solid green;
+  border-radius: 13px;
+  color: blue;
+}
+
+#searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: -22px 9px;
+}
+
+.navbar {
+  width: 100vw;
+  background: blanchedalmond;
+  height: 5vh;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0px -25px;
+  font-size: 23px;
+}
+
+.navbar ul li {
+  margin: 0px 47px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  margin: auto;
+}
+
+.form {
+  margin: 28px 15px;
+  font-size: 19px;
+  border: 2px solid green;
+  border-radius: 93px;
+  text-align: center;
+}
+
+.box h2 {
+  margin: 8px -18px;
+  border: 2px solid green;
+}
+
+#text {
+  font-size: larger;
+  margin: 15px -11px;
+}
+
+#mybox {
+  margin: 0px -58px;
+  text-align: center;
+  border: 2px solid blue;
+  font-size: 20px;
+}
+
+#Convert {
+  width: 99px;
+  margin: 6px 20px;
+  border: 2px solid green;
+  border-radius: 25px;
+  cursor: pointer;
+  color: brown;
+  height: 59px;
+}
+
+.box h3 {
+  margin: 0px -27px;
+}
+
+.botton {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 94px;
+  height: 47px;
+}
+
+
+#preview {
+  font-size: 21px;
+  font-style: oblique;
+  /* margin: 0px -180px; */
+}
+
+#opt {
+  text-align: center;
+}
